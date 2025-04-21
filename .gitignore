@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+.venv/
+venv/
+ENV/
+build/
+DevelopEggs/
+.eggs/
+dist/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+cover/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Notebook metadata and temp files
+*.nbconvert.ipynb
+*.ipynb~
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Data artifacts
+*.csv
+*.tsv
+*.parquet
+
+# Ignore model checkpoints & embeddings
+*.bin
+*.pkl
+
+# Secrets (ensure you never commit keys!)
+.env 
