@@ -11,21 +11,26 @@ The notebook illustrates how to:
 
 ## Getting Started
 
-> Tested with **Python 3.9+** on macOS/Linux. Dependencies are pinned in `requirements.txt`.
+This project uses [uv](https://github.com/astral-sh/uv) for fast, reproducible Python environments. Python 3.9+ is required.
+
+1. **Clone the repository**
 
 ```bash
-# 1. Clone the repo
 $ git clone https://github.com/<your‑user>/udacity-genai-custom-chatbot.git
 $ cd udacity-genai-custom-chatbot
+```
 
-# 2. Create & activate a virtual env (venv, conda, poetry…)
-$ python -m venv .venv
+2. **Create and activate a virtual environment with uv**
+
+```bash
+$ uv venv .venv
 $ source .venv/bin/activate
+$ uv pip install -r requirements.lock.txt  # fully locked install
+```
 
-# 3. Install libraries
-$ pip install -r requirements.txt
+3. **Launch the notebook**
 
-# 4. Launch Jupyter & run the demo notebook
+```bash
 $ jupyter lab notebooks/custom_chatbot.ipynb
 ```
 
