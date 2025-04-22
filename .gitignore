@@ -1,3 +1,6 @@
+# Secrets (ensure you never commit keys!)
+.env 
+
 # Python
 __pycache__/
 *.py[cod]
@@ -56,14 +59,7 @@ cover/
 # VS Code
 .vscode/
 
-# Data artifacts
-*.csv
-*.tsv
-*.parquet
-
 # Ignore model checkpoints & embeddings
 *.bin
 *.pkl
 
-# Secrets (ensure you never commit keys!)
-.env 
